@@ -9,8 +9,6 @@ int main(){
     char buffer[64];
 
     modified = 0;
-    ::gets(buffer);
-
     if(modified != 0) {
         printf("you have changed the 'modified' variable\n");
     } else {

@@ -17,6 +17,7 @@ add_subdirectory(error_handling)
 add_subdirectory(reversing)
 add_subdirectory(memory_test)
 add_subdirectory(capture)
+add_subdirectory(typecast)
 add_executable(testv main.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
