@@ -7,6 +7,7 @@ int
 DecodeTime(const char * timeformat){ // *ms / *s / number
     std::string time = timeformat;  
 
+
     static std::array<std::string, 2> 
         string_time = {"infinite", "immediate"};
     static std::array<int, 2>  
